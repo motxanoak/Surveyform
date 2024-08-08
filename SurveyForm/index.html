@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="centrados"><img class="logo" src="images/logo1.png" alt="logo">
+        <h1 id="title">Contact Us</h1>
+    </div>
+    <p id="description">Please fill out the following form to contact us.</p>
+    <form id="survey-form" action="www.lab-rizomas.com" method="post">
+        <section>
+            <label id="name-label" for="name"> Name<input type="text" id="name" required
+                    placeholder="Enter your name"></label>
+            <label id="email-label" for="email">Email<input type="email" id="email" required
+                    placeholder="Enter your email"></label>
+            <label id="number-label" for="numer">Number<input type="number" max="10" min="9" id="number"
+                    placeholder="Enter your number"></label>
+        </section>
+        <section>
+            <label for="">Sector</label> <select name="dropdown" id="dropdown">
+                <option value="">Select One</option>
+                <option value="">Design</option>
+                <option value="">Visual Arts</option>
+                <option value="">Cultural Heritage</option>
+            </select>
+        </section>
+        <section>
+            <label for="">Please, select your labor: <label for=""><input class="inline" type="radio" value="algo"
+                        name="a">Cultural Manager</label><label for=""><input type="radio" value="algo"
+                        name="a">Creative</label></label>
+            <label for="">Place:<label for=""><input type="radio" value="algo" name="a">Palmira</label><label for=""></label><label for=""><input type="radio" value="algo"
+                name="a">Other</label></label>
+        </section>
+        <section>
+            <label for="">Select your interests:<label for=""><input type="checkbox" value="algo" name="">Workshops and Opencalls</label><label for=""><input type="checkbox"
+                value="algo" name="">Alliance for project development</label></label>
+        </section>
+        <label for=""> Description or commentaries:
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+<Fieldset></Fieldset>
+</body>
+
+</html>
